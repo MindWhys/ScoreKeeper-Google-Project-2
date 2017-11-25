@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="base_points">0</string>
+    <string name="minus_sign">-</string>
+    <string name="plus_sign">+</string>
+    <string name="reset">reset</string>
+</resources>
