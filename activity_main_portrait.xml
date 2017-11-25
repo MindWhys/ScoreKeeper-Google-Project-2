@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.scorekeeper.MainActivity">
+
+    <LinearLayout
+        android:background="@color/strip1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/minus_sign"
+            android:textSize="30sp"
+            android:onClick="subtractOnePoint1"/>
+
+        <ImageView
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:src="@drawable/alea1" />
+
+        <TextView
+            android:id="@+id/die_1_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/base_points"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <Button
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/plus_sign"
+            android:textSize="30sp"
+            android:onClick="addOnePoint1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/strip2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:onClick="subtractOnePoint2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/minus_sign"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:src="@drawable/alea2" />
+
+        <TextView
+            android:id="@+id/die_2_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/base_points"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <Button
+            android:onClick="addOnePoint2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/plus_sign"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/strip1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:onClick="subtractOnePoint3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/minus_sign"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:src="@drawable/alea3" />
+
+        <TextView
+            android:id="@+id/die_3_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/base_points"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <Button
+            android:onClick="addOnePoint3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/plus_sign"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/strip2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:onClick="subtractOnePoint4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/minus_sign"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:src="@drawable/alea4" />
+
+        <TextView
+            android:id="@+id/die_4_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/base_points"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <Button
+            android:onClick="addOnePoint4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/plus_sign"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/strip1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:onClick="subtractOnePoint5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/minus_sign"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:src="@drawable/alea5" />
+
+        <TextView
+            android:id="@+id/die_5_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/base_points"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <Button
+            android:onClick="addOnePoint5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/plus_sign"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/strip2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:onClick="subtractOnePoint6"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/minus_sign"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:src="@drawable/alea6" />
+
+        <TextView
+            android:id="@+id/die_6_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/base_points"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <Button
+            android:onClick="addOnePoint6"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/margin_width"
+            android:layout_marginRight="@dimen/margin_width"
+            android:text="@string/plus_sign"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:background="#B96E43"
+        android:onClick="resetPoints"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/reset" />
+
+</LinearLayout>
